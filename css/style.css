@@ -1,0 +1,125 @@
+:root {
+  --text-secondary-color: #858a8f;
+  --text-primary: #333;
+  --boot-primary: #0d6efd;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.text-secondary-own {
+  color: var(--text-secondary-color);
+}
+.icon-own {
+  width: 75px;
+  height: 75px;
+}
+
+.text-p-own {
+  font-size: 18px;
+}
+.my-menu  li a{
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.mtb-own-5 {
+  margin-top: 1em;
+  margin-bottom: 10vh;
+}
+
+.hero h3 {
+  color: var(--text-primary);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73px;
+  margin-bottom: 35px;
+}
+
+.hero-top-para {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+.trial-btn {
+  text-decoration: none;
+  background-color: var(--boot-primary);
+  padding: 1em 2em;
+  color: white;
+  border-radius: 2px;
+  margin: 50px 0px 22.5px 0px;
+}
+
+.hero-botton-para {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-top: 22.5px;
+}
+
+.hero {
+  padding-top: 123px;
+  padding-bottom: 20px;
+}
+
+.companies {
+  padding: 85px 0px;
+}
+
+.feature {
+  padding-top: 129px;
+  padding-bottom: 14px;
+}
+
+.feature-heading {
+  color: var(--text-primary);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73px;
+  margin-bottom: 34px;
+}
+
+.feature-3-intro-para {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 32px;
+}
+
+.inside-feature-heading {
+  color: var(--text-primary);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+.inside-feature-para {
+  color: #858a8f;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35px;
+}
+footer {
+  padding-top: 130px;
+  padding-bottom: 86px;
+}
+
+footer ul li a {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+footer p {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+}

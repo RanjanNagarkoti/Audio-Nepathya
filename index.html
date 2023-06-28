@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google fonts Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar code -->
+    <nav class="navbar navbar-expand-lg bg-body-white flex">
+      <div class="container">
+        <a class="navbar-brand flex-grow-1" href="./index.html">
+          <img src="./img/Logo.png" alt="logo-image" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-menu">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+                <img
+                  class="m-lg-1"
+                  src="./img/icon-chevron-down.svg"
+                  alt="icon-chevron-down"
+                />
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Desktop App</a></li>
+                <li><a class="dropdown-item" href="#">Mobile App</a></li>
+                <li><a class="dropdown-item" href="#">Sass</a></li>
+                <li><a class="dropdown-item" href="#">Event</a></li>
+                <li><a class="dropdown-item" href="#">Software</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+                <img
+                  class="m-lg-1"
+                  src="./img/icon-chevron-down.svg"
+                  alt="icon-chevron-down"
+                />
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+                <img
+                  class="m-lg-1"
+                  src="./img/icon-chevron-down.svg"
+                  alt="icon-chevron-down"
+                />
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog Listing</a></li>
+                <li><a class="dropdown-item" href="#">Blog Article</a></li>
+                <li><a class="dropdown-item" href="#">Newsroom</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Portfolio
+                <img
+                  class="m-lg-1"
+                  src="./img/icon-chevron-down.svg"
+                  alt="icon-chevron-down"
+                />
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                <li><a class="dropdown-item" href="#">Single Case</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li nav-item>
+              <a href="#" class="btn btn-primary">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Webpage main code -->
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center col-sm-12">
+              <h3 class="">Introducing a new music app Move Music!</h3>
+              <p class="hero-top-para">
+                Try the Movie Music app we are sure that it will expand the
+                boundaries of your musical taste. You can also try the extended
+                version for free for 14 days.
+              </p>
+
+              <a href="#" class="trial-btn">Start 14 Days Free Trial</a>
+
+              <p class="hero-botton-para">No credit card enquired</p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="./img/hero-banner.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Companies -->
+      <section class="companies">
+        <div class="container">
+          <p class="text-secondary-own mb-lg-4">
+            Companies that have already tried our app
+          </p>
+          <div class="row justify-content-lg-between">
+            <div class="col-sm-6 col-lg-2">
+              <img
+                src="./img/goldline.png"
+                alt="goldline-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <img src="./img/aven.png" alt="aven-img" class="img-fluid" />
+            </div>
+
+            <div class="col-lg-2 col-sm-6">
+              <img src="./img/kanba.png" alt="kanba-img" class="img-fluid" />
+            </div>
+
+            <div class="col-lg-2 col-sm-6">
+              <img src="./img/kyan.png" alt="kyan-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <img
+                src="./img/spotify.png"
+                alt="spotify-img"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature 2 -->
+      <section class="feature-3 feature">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="./img/feature-2-banner.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col-lg-6 align-self-center">
+              <div class="container-fluid ms-5">
+                <h2 class="feature-heading">Be in the trend of new music</h2>
+
+                <p class="feature-3-intro-para">
+                  Every week, we create new playlists with current music that
+                  most people listen to. Join them and be in the trend of new
+                  music.
+                </p>
+
+                <div class="row mb-3 mt-3">
+                  <div class="col-lg-2 text-center">
+                    <img src="./img/smile.png" alt="" class="icon-own" />
+                  </div>
+                  <div class="col-lg-8">
+                    <h3 class="inside-feature-heading">We adapt to you</h3>
+                    <p class="inside-feature-para">
+                      We analyze your media library and create playlists that
+                      match your mood and music preference.
+                    </p>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-lg-2 text-center">
+                    <img src="./img/playlist-2.png" alt="" class="icon-own" />
+                  </div>
+                  <div class="col-lg-8">
+                    <h3 class="inside-feature-heading">
+                      Your music your rules
+                    </h3>
+                    <p class="inside-feature-para">
+                      You can import your playlist from other music platforms
+                      and not waste time adding music manually.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature 3 -->
+      <section class="feature-2 mtb-own-5 feature">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 order-last">
+              <img src="./img/feature-3-banner.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col-lg-6 align-self-center">
+              <h2 class="feature-heading">
+                Listen and <br />
+                download music
+              </h2>
+
+              <p class="feature-3-intro-para">
+                In our app, you can download music both in the app itself and on
+                your smartphone. Try this feature today
+              </p>
+
+              <div class="row mb-3 mt-3">
+                <div class="col-lg-2 text-center">
+                  <img src="./img/Ellipse-18.svg" alt="" class="icon-own" />
+                </div>
+                <div class="col-lg-8">
+                  <h3 class="inside-feature-heading">Downloading in the app</h3>
+                  <p class="inside-feature-para">
+                    Owners of the regular version of Move Music can only
+                    download music in the app and listen to it without the
+                    Internet.
+                  </p>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-lg-2 text-center">
+                  <img src="./img/Ellipse-17 1.svg" alt="" class="icon-own" />
+                </div>
+                <div class="col-lg-8">
+                  <h3 class="inside-feature-heading">
+                    Downloading to your smartphone
+                  </h3>
+                  <p class="inside-feature-para">
+                    Users of the Move+ subscription can download music for free
+                    to their smartphone to listen to it without the Internet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="./img/Logo.png" alt="" />
+            <p class="text-secondary-own lh-lg fs-5">
+              Move - Multipurpose Design Template will help you develop your
+              website design.
+            </p>
+            <div class="row">
+              <div class="col-lg-3">
+                <img src="./img/Dribbble.png" alt="" />
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/Facebook.png" alt="" />
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/Twitter.png" alt="" />
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/YouTube.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <h4 class="mb-4">Home</h4>
+            <ul class="navbar-nav">
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Desktop App</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Mobile App</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >SaaS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Event</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Software</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="mb-4">Pages</h4>
+            <ul class="navbar-nav">
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Careers</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Case Studies</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Pricing</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="mb-4">Blog</h4>
+            <ul class="navbar-nav">
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Blog Listing</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Blog Article</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Newsroom</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="mb-4">Portfolio</h4>
+            <ul class="navbar-nav">
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-secondary-own text-decoration-none fs-5"
+                  >Single Case</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="mb-5 mt-5 text-secondary-own">
+          © 2019-2020 Wave Multipurpose Design Template.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
